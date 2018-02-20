@@ -1103,7 +1103,7 @@ class Scene {
 				this.ctx.fillStyle = 'orange';
 				//this.ctx.textAlign = 'center';
 				this.ctx.font = '24px monospace';
-				this.ctx.fillText( 'Written by Benjamin Brown', 36, 120 );
+				this.ctx.fillText( 'Written by Benjamin Brown', 30, 120 );
 			}
 		}
 

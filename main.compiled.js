@@ -445,7 +445,6 @@ if( player.get( 'banana_location' ) === 'nw' ) {
 if( player.get( 'cell_phone_location' ) === 'desk' ){
   scene.setAnimation( 'CellPhone', 'Phone', true ); 
 }
-scene.credits = true;;
     scope.OlomwaEyKc();
 };
 
@@ -867,7 +866,7 @@ scope.gsdMlWAfbS_12 = function(){
 // TEXT
 scope.gsdMlWAfbS_13 = function(){
     player.set( 'current_in2_node', 'gsdMlWAfbS_13' );
-    var text = `Conscience: (Althought, I may have done a teeny bit better.)`;
+    var text = `Conscience: (Although, I may have done a teeny bit better.)`;
     core.say( text, scope.gsdMlWAfbS_14 );
 };
 
