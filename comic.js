@@ -952,7 +952,7 @@ class Scene {
 			this.loadSprite( 'clock14', 'clock', 46 * 13, 0, 46, 46 );
 			this.loadSprite( 'clock15', 'clock', 46 * 14, 0, 46, 46 );
 
-			this.loadPicture( 'BWOW1', 'assets/img/Comic1/BWOW1.png', on_pic );
+			this.loadPicture( 'BWOW1', 'assets/img/Comic1/bwow1.png', on_pic );
 			this.loadSprite( 'BWOW1_1', 'BWOW1', 400 * 0, 0, 400, 400 );
 			this.loadSprite( 'BWOW1_2', 'BWOW1', 400 * 1, 0, 400, 400 );
 			this.loadSprite( 'BWOW1_3', 'BWOW1', 400 * 2, 0, 400, 400 );
@@ -962,7 +962,7 @@ class Scene {
 			this.loadSprite( 'BWOW1_7', 'BWOW1', 400 * 6, 0, 400, 400 );
 			this.loadSprite( 'BWOW1_8', 'BWOW1', 400 * 7, 0, 400, 400 );
 
-			this.loadPicture( 'BWOW2', 'assets/img/Comic1/BWOW2.png', on_pic );
+			this.loadPicture( 'BWOW2', 'assets/img/Comic1/bwow2.png', on_pic );
 			this.loadSprite( 'BWOW2_1', 'BWOW2', 400 * 0, 0, 400, 400 );
 			this.loadSprite( 'BWOW2_2', 'BWOW2', 400 * 1, 0, 400, 400 );
 			this.loadSprite( 'BWOW2_3', 'BWOW2', 400 * 2, 0, 400, 400 );
@@ -996,7 +996,7 @@ class Scene {
 			this.loadPicture( 'Door_normal', 'assets/img/Comic1/Door_normal.png', on_pic, true );
 			this.loadPicture( 'Girl1_normal', 'assets/img/Comic1/Girl1_normal.png', on_pic, true );
 			this.loadPicture( 'Girl1_smelling', 'assets/img/Comic1/Girl1_smelling.png', on_pic, true );
-			this.loadPicture( 'Mildred', 'assets/img/Comic1/Mildred.png', on_pic, true );
+			this.loadPicture( 'Mildred', 'assets/img/Comic1/mildred.png', on_pic, true );
 			this.loadPicture( 'Girls_actor_talking1', 'assets/img/Comic1/Girls_talking1.png', on_pic );
 			this.loadPicture( 'Girls_actor_talking2', 'assets/img/Comic1/Girls_talking2.png', on_pic );
 			this.loadPicture( 'Jonathan_normal', 'assets/img/Comic1/Jonathan_normal.png', on_pic, true );
@@ -1011,7 +1011,7 @@ class Scene {
 			this.loadPicture( 'Phone', 'assets/img/Comic1/phone.png', on_pic, true );
 			this.loadPicture( 'Scissors', 'assets/img/Comic1/scissors.png', on_pic, true );
 			this.loadPicture( 'Mousepad', 'assets/img/Comic1/mousepad.png', on_pic, true );
-			this.loadPicture( 'Stapler', 'assets/img/Comic1/stapler.png', on_pic, true );
+			this.loadPicture( 'Stapler', 'assets/img/Comic1/Stapler.png', on_pic, true );
 			this.loadPicture( 'Classroom2_Props', 'assets/img/Comic1/Classroom2-props.png', on_pic, true );
 			this.loadPicture( 'First_Aid', 'assets/img/Comic1/first-aid.png', on_pic, true );
 			this.loadPicture( 'Chair', 'assets/img/Comic1/chair.png', on_pic, true );
