@@ -1318,7 +1318,7 @@ ctx.fillStyle = '#AAAAAA';
 ctx.font = '20px monospace';
 ctx.fillText( 'This is an interactive comic.', 40, 70 );
 ctx.fillStyle = '#AAAAAA';
-ctx.font = '18px monospace';
+ctx.font = '16px monospace';
 ctx.fillText( 'It may take a few minutes to complete,', 10, 100 );
 ctx.fillText( 'so be sure that you have the time to', 10, 120 );
 ctx.fillText( 'take your time, lest you rush through', 10, 140 );
