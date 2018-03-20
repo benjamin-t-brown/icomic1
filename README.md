@@ -1,3 +1,7 @@
 icomic1 for Serendipidy
 
-Host a web an appropriate web page to see the comic.
+Go here:
+
+https://benjamin-t-brown.github.io/icomic1/
+
+or host an appropriate web page to see the comic.
