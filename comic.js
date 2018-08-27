@@ -1292,20 +1292,24 @@ window.scene = new Scene();
 window.player = new Player();
 window.core = new Core();
 
+let is_init = false;
 let init_comic = function() {
-	let canvas_id = 'canvas';
-	let cb = () => {
-		setTimeout( () => {
-			document.getElementById( 'loading' ).style.display = 'none';
-			window.files[ `main.json` ]();
-		}, 1 );
-	};
-	window.core.init();
-	window.core.catcher.enable();
-	window.player.init();
-	window.scene.load( canvas_id, cb );
-	if ( !window.scene.running ) {
-		window.scene.loop();
+	if( is_init === false ) {
+		is_init = true;
+		let canvas_id = 'canvas';
+		let cb = () => {
+			setTimeout( () => {
+				document.getElementById( 'loading' ).style.display = 'none';
+				window.files[ `main.json` ]();
+			}, 1 );
+		};
+		window.core.init();
+		window.core.catcher.enable();
+		window.player.init();
+		window.scene.load( canvas_id, cb );
+		if ( !window.scene.running ) {
+			window.scene.loop();
+		}
 	}
 };
 
