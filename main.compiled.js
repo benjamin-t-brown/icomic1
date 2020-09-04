@@ -853,7 +853,7 @@ scope.gsdMlWAfbS_10 = function(){
 // TEXT
 scope.gsdMlWAfbS_11 = function(){
     player.set( 'current_in2_node', 'gsdMlWAfbS_11' );
-    var text = `Conscience: "Anyway, I thought you did a pretty good job of guiding Ada through her trials and tribulations."`;
+    var text = `Conscience: "Anyway, I thought you did a pretty good job of guiding Adalais through her trials and tribulations."`;
     core.say( text, scope.gsdMlWAfbS_12 );
 };
 
@@ -1829,7 +1829,7 @@ scope.pSGBSOZFCf_18 = function(){
 // TEXT
 scope.pSGBSOZFCf_19 = function(){
     player.set( 'current_in2_node', 'pSGBSOZFCf_19' );
-    var text = `Adalais: "..then this is also my will.  I give all my possessions to the amazing and wonderful Vivianna."`;
+    var text = `Adalais: "...then this is also my will.  I give all my possessions to my amazing and wonderful sister, Vivianna."`;
     core.say( text, scope.pSGBSOZFCf_20 );
 };
 
@@ -3989,7 +3989,7 @@ scope.VQcubFBfuF_7 = function(){
 // TEXT
 scope.VQcubFBfuF_8 = function(){
     player.set( 'current_in2_node', 'VQcubFBfuF_8' );
-    var text = `Adalais: Adalais: Eww this thing is disgusting.  It must have been in there for over a week.`;
+    var text = `Adalais: Eww this thing is disgusting.  It must have been in there for over a week.`;
     core.say( text, scope.VQcubFBfuF_9 );
 };
 
