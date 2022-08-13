@@ -38,25 +38,27 @@ button:hover {
 .soundimg{
 	width:20px;
 	height:20px;
-	margin-bottom:2px;
+	padding: 8px 2px;
 }
 .soundimg:hover {
 	background-color: #555;
 }
 </style>
 <body>
-<div style="display:flex; justify-content: space-around; width: 100%; height: 100%;">
+<div style="display:flex; align-items:center; justify-content: space-around; width: 100%; height: 100%;">
 
 <div style="background-color: black; width: calc( 50% - 404px/2 );">
 </div>
+<div style="height:800px">
 <div style="width:404px;position:relative;outline-color:red;box-sizing:border-box;border:1px solid black;">
 	<img id="soundimg" class="soundimg" src="assets/img/volumeoff.png"></img>
-	<img id="loading" src="assets/img/loading.gif" style="display:none;position:absolute;top:100px;left:80px"> </img>
+	<img id="loading" src="assets/img/loading.gif" style="display:none;position:absolute;top:100px;left:92px;width:208px;image-rendering:pixelated;"> </img>
 	<canvas style=""; width="400" height="400" id="canvas"></canvas>
 	<div id="container" style="overflow:hidden; height:128px;">
 	<canvas style=""; width="400" height="124" id="canvas2" ></canvas>
 	</div>
 	<div id="buttons" style="width:400px"></div>
+</div>
 </div>
 <div style="background-color: black; width: calc( 50% - 404px/2 );">
 </div>

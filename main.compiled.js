@@ -41,15 +41,18 @@ scope.SiefMSDbIF = function(){
 
 // ACTION
 scope.HAsuPcNxoZ = function(){
-    scene.setAnimation( 'Conscience', 'Conscience_entrance' ); ;
+    // scene.setAnimation( 'Conscience', 'Conscience_entrance' ); ;
     scope.TkgdayrIOk();
 };
 
 // TEXT
 scope.TkgdayrIOk = function(){
-    player.set( 'current_in2_node', 'TkgdayrIOk' );
-    var text = `Conscience: "Oof!"`;
-    core.say( text, scope.zTQsQOKhYm );
+    // player.set( 'current_in2_node', 'TkgdayrIOk' );
+    // var text = `Conscience: "Oof!"`;
+    // core.say( text, scope.zTQsQOKhYm );
+
+
+    core.say( 'The game will now begin.', scope.nbWLLGkDfz );
 };
 
 // ACTION
@@ -794,8 +797,10 @@ scope.gsdMlWAfbS_1 = function(){
 
 // ACTION
 scope.gsdMlWAfbS_2 = function(){
-    scene.setAnimation( 'Conscience', 'Conscience_entrance' ); ;
-    scope.gsdMlWAfbS_3();
+    // scene.setAnimation( 'Conscience', 'Conscience_entrance' ); ;
+    // scope.gsdMlWAfbS_3();
+
+    core.say('Congratulations! You have completed this game.', scope.gsdMlWAfbS_20);
 };
 
 // TEXT
@@ -4791,7 +4796,7 @@ scope.hUZDPCdhut_5 = function(){
 // TEXT
 scope.hUZDPCdhut_6 = function(){
     player.set( 'current_in2_node', 'hUZDPCdhut_6' );
-    var text = `Adalais: He claimed that an artist painstakingly painted every pixel on it, but it is obviously just a subset of a julia fractal in grayscale.`;
+    var text = `Adalais: He claimed that an artist painstakingly painted every pixel on it, but it is obviously just a subset of a julia fractal in grayscale.  Such a thing is easily generated via computer.`;
     core.say( text, scope.hUZDPCdhut_7 );
 };
 
@@ -6241,7 +6246,7 @@ scope.dhFReGhGXM_5 = function(){
 // TEXT
 scope.dhFReGhGXM_6 = function(){
     player.set( 'current_in2_node', 'dhFReGhGXM_6' );
-    var text = `Adalais: Inside is only one bandage, a little antiseptic, and a hilariously large amount of cotton balls.`;
+    var text = `Adalais: Inside is only one bandage, a little antiseptic, and a ludicrous amount of cotton balls.`;
     core.say( text, scope.dhFReGhGXM_7 );
 };
 
@@ -6254,7 +6259,7 @@ scope.dhFReGhGXM_7 = function(){
 // TEXT
 scope.dhFReGhGXM_8 = function(){
     player.set( 'current_in2_node', 'dhFReGhGXM_8' );
-    var text = `Adalais: It looks like they just stuffed the kit with them to make it look like it was full.`;
+    var text = `Adalais: It looks like they just stuffed the kit with them to make it look like it was full of other useful stuff.`;
     core.say( text, scope.dhFReGhGXM_9 );
 };
 
@@ -8443,7 +8448,7 @@ scope.KsWOAOsZKb_3 = function(){
 // TEXT
 scope.KsWOAOsZKb_4 = function(){
     player.set( 'current_in2_node', 'KsWOAOsZKb_4' );
-    var text = `Adalais: I guess this one is fine: 'Escape From Midwich Valley by Carpenter Brut'.  That sounds like an interesting one.`;
+    var text = `Adalais: I guess this one is fine; 'Escape From Midwich Valley by Carpenter Brut'.  That sounds like an interesting one.`;
     core.say( text, scope.KsWOAOsZKb_5 );
 };
 
@@ -11461,7 +11466,7 @@ scope.JepgtglbkG_6 = function(){
 // TEXT
 scope.JepgtglbkG_7 = function(){
     player.set( 'current_in2_node', 'JepgtglbkG_7' );
-    var text = `Adalais: "I got a little bit... distracted, and now I need to take my field trip form to the office."`;
+    var text = `Adalais: "I got a bit... distracted, and now I need to take my field trip form to the office."`;
     core.say( text, scope.JepgtglbkG_8 );
 };
 
@@ -11500,7 +11505,7 @@ scope.JepgtglbkG_12 = function(){
 // TEXT
 scope.JepgtglbkG_13 = function(){
     player.set( 'current_in2_node', 'JepgtglbkG_13' );
-    var text = `Jonathan: "Oh dear. Well I guess we just have to wait for them to move it..."`;
+    var text = `Jonathan: "Hmm.  I guess we just have to wait for them to move it..."`;
     core.say( text, scope.JepgtglbkG_14 );
 };
 
@@ -11557,7 +11562,7 @@ scope.qqBpfnJMSk = function(){
         cb: scope.IzlCWLgCHY,
         condition: () => { return player.get( 'has_asked_about_cell_phone' ) && player.get( 'cell_phone_location' ) === 'jonathan' }
     },{
-        text: `Do you own a cell phone?`,
+        text: `About your cell phone?`,
         cb: scope.RGggJFDBwz,
         condition: () => { return player.get( 'has_seen_cell_phone' ) && player.get( 'cell_phone_location' ) === 'jonathan' }
     },{
@@ -12135,7 +12140,7 @@ scope.eIFBtkhgGg_10 = function(){
 // TEXT
 scope.eIFBtkhgGg_11 = function(){
     player.set( 'current_in2_node', 'eIFBtkhgGg_11' );
-    var text = `Adalais: (Oh Jonathan... I so very much wish to punch you right now... but I may need your help later.)`;
+    var text = `Adalais: (Oh Jonathan... Perhaps I should not press further; I may need his help later.)`;
     core.say( text, scope.eIFBtkhgGg_12 );
 };
 
@@ -12148,7 +12153,7 @@ scope.eIFBtkhgGg_12 = function(){
 // TEXT
 scope.eIFBtkhgGg_13 = function(){
     player.set( 'current_in2_node', 'eIFBtkhgGg_13' );
-    var text = `Adalais: "Haha... cool."`;
+    var text = `Adalais: "I suppose that makes sense."`;
     core.say( text, scope.eIFBtkhgGg_14 );
 };
 
@@ -12739,7 +12744,7 @@ scope.zhlZKDTYHJ_6 = function(){
 // TEXT
 scope.zhlZKDTYHJ_7 = function(){
     player.set( 'current_in2_node', 'zhlZKDTYHJ_7' );
-    var text = `Mr. Ralgo: "Mind your own business, young Adalais."`;
+    var text = `Mr. Ralgo: "Mind your own business."`;
     core.say( text, scope.zhlZKDTYHJ_8 );
 };
 
