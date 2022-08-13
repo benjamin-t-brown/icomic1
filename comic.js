@@ -69,6 +69,9 @@
       this.cb = () => {};
 
       this.on_keypress = (ev) => {
+				if (ev?.target?.id === 'soundimg') {
+					return;
+				}
         if (this.disabled) {
           return;
         }
@@ -86,7 +89,7 @@
       });
       window.addEventListener('touchstart', (ev) => {
         if (canvas.onclick) {
-          canvas.onclick();
+          canvas.onclick(ev);
         }
         if (this.disabled) {
           ev.preventDefault();
@@ -149,7 +152,6 @@
           if (i === 0 && speakerMatch) {
             const name = speakerMatch[0];
 
-            console.log('FILL NAME TEXT', name);
             ctx2.fillStyle = 'grey';
             ctx2.font = font;
             ctx2.fillText(name, x, 20 + i * 18);
@@ -2089,7 +2091,9 @@
     return false;
   };
 
-  document.getElementById('soundimg').onclick = () => {
+  document.getElementById('soundimg').onclick = (ev) => {
+    ev.stopPropagation();
+    ev.preventDefault();
     let elem = document.getElementById('soundimg');
     console.log('toggle volume to', !window.scene.is_sound_enabled);
     if (window.scene.is_sound_enabled) {
