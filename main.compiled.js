@@ -1929,9 +1929,13 @@ scope.fRQgZcRhCl = function(){
         core.say( text, scope.FIcxVmgVMc );
     }
     if( !condition ){
-        player.set( 'current_in2_node', 'OTWmeTJTHB' );
-        var text = ``;
-        core.say( text, scope.UAPlftbXrK );
+        if (player.get( 'classroom4_chair_location' ) === 'shelf') {
+            player.set( 'current_in2_node', 'OTWmeTJTHB' );
+            var text = ``;
+            core.say( text, scope.UAPlftbXrK );
+        } else {
+            scope.geICUhrKbn();
+        }
     }
 };
 // chunk FIRST
@@ -3100,7 +3104,7 @@ player.set( 'current_in2_file', 'comic-classroom4-se.json' );
 scope.AmAhDLKxRO = function(){
     player.setIfUnset( 'av_key_location', 'ada' );
 player.setIfUnset( 'book_location', 'ada' );
-player.setIfUnset( 'classroom4_chair_location', 'shelf' );
+player.setIfUnset( 'classroom4_chair_location', 'desk' );
 player.setIfUnset( 'ink_revealer_location', 'ada' );
 player.setIfUnset( 'blank_paper_location', 'ada' );;
     scope.rHTMfNzbIC();
@@ -4925,7 +4929,8 @@ scope.PHBZLBlgMu = function(){
 player.setIfUnset( 'scissors_location', 'desk' );
 player.setIfUnset( 'girls_location', 'sw' );
 player.setIfUnset( 'banana_location', 'ada' );
-player.setIfUnset( 'classroom3_chair_location', 'shelf' );
+player.setIfUnset( 'classroom3_chair_location', 'desk' );
+player.setIfUnset( 'book_location', 'ada');
 
 scene.clearActors();
 scene.addActor('Background', 0, 0, 'black-screen');

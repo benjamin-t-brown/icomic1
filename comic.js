@@ -2040,7 +2040,8 @@
         setTimeout(() => {
           document.getElementById('loading').style.display = 'none';
           window.files[`main.json`]();
-        }, 1000);
+					// window.files[`comic-classroom4-se.json`]();
+        }, 1);
       };
       window.core.init();
       window.core.catcher.enable();
