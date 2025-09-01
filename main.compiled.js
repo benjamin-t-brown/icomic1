@@ -12307,7 +12307,7 @@ scope.qXqkDKkUJi_3 = function(){
 // TEXT
 scope.qXqkDKkUJi_4 = function(){
     player.set( 'current_in2_node', 'qXqkDKkUJi_4' );
-    var text = `Jonathan: "What do you want Ada? I'm busy right now."`;
+    var text = `Mr. Ralgo: "What do you want Ada? I'm busy right now."`;
     core.say( text, scope.qXqkDKkUJi_5 );
 };
 
